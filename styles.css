@@ -1,0 +1,83 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: grey;
+}
+
+.post{
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    height: 620px;
+}
+
+.post-header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.icono-html5{
+    height: 60%;
+    width: 0%;
+    align-self: center;
+    margin: 4px 4px 0px 10px;
+    font-size: 2em;
+}
+
+.texto-header{
+    width: 85%;
+    height: 80%;
+    align-self: flex-start;
+    padding: 13px 10px 0px 30px;
+}
+
+.icono-3puntos{
+    margin: 0px 15px 5px 0px;
+    font-size: 2em;
+    align-self: center;
+}
+
+img{
+    width: 100%;
+    height: 40%;
+}
+
+.post-icons{
+    width: 100%;
+    height: 10%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.icono-corazon, .icono-comentario, .icono-flecha{
+    height: 80%;
+    font-size: 1.8em;
+    margin: 10px 4px 0px 8px;
+    align-self: center;
+}
+
+.icono-flecha{
+   width: 80%; /*desplaza a la derecha el ultimo icono */
+}
+
+.icono-marcador{
+    font-size: 1.8em;
+    align-self: center;
+    justify-self: flex-end;
+    margin: 10px 10px 0px 5px;
+}
+
+.parrafos{
+    width: 95%;
+    height: 30%;
+    font-size: 1em;
+    text-align: justify;
+    padding: 8px;
+}
